@@ -28,8 +28,14 @@ First I declared these variables as private and then I created public methods to
 
 I used these methods later on, to access the elements of the table. 
 
-###The second part consisted in creating methods to manipulate the array.
+### The second part consisted in creating methods to manipulate the array.
 
 For example, I created the method "nbOccLemme" which displays both the lemmas and the number of occurrences for each lemma. To make the method return 2 different types of variable (a String and an Integer), I used a hash Map.
 
 <code> Map<String, Integer> lemmesOcc = new HashMap<String, Integer>(); </code>
+
+Thus, the key is the string and the value is the integer. To obtain the number of occurrences for each lemma I used the frequency() method:
+
+<code> Collections.frequency(contenus,ligne.getLemma())); </code>
+
+I created several other methods to return content based on a choice made by the user, while comparing the respective element of the array with the value (choice) given by the user. Some of those new created methods use: getWord(), getLemma(), getCategory(), getMode(), getNumber(), getTime(), getPers() in order to access the elements of the array. The comparision with the input of the user is done with the aid of the equals() method.
