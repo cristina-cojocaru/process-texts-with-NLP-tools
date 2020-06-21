@@ -20,3 +20,7 @@ To fill the table with the String "linesParsees" I have done the following opera
 - added the elements in the table by the "add" method
 For the table, I created a different class called "Content". In this class I declared all the variables or elements that make up the table. All these elements can be found in the String "linesParsees", except the id.
 
+![list-of-variables-of-cotenu-class](https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/blob/master/list-of-variables-for-contenu-class.JPG)
+
+First I declared these variables as private and then I created public methods to obtain these variables.
+
