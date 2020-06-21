@@ -8,4 +8,4 @@ To access the String that is in linesParsees, I have taken the following steps:
 - used an "analysis" object of type parse
 - instantiated a classification through this object according to the file type given by the user (a stance if... else)
 
-!if-else-screenshot(https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/blob/master/if-else-type-of-tool.JPG)
+![if-else-screenshot](https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/blob/master/if-else-type-of-tool.JPG)
