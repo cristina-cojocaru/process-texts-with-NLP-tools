@@ -6,5 +6,6 @@ My work consisted in creating a "file" class that takes a String and transforms 
 To access the String that is in linesParsees, I have taken the following steps:
 - created a "Parse" interface where the method "parse" is declared --> all classes that process files (TreeTagger, Spacy etc) implement the "Parse" interface.
 - used an "analysis" object of type parse
-- instantiated a classification through this object according to the file type given by the user afterwards if... else
+- instantiated a classification through this object according to the file type given by the user (a stance if... else)
 
+!if-else-screenshot(https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/if-else-type-of-tool.jpg?raw=true)
