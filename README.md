@@ -3,6 +3,8 @@
 
 My work consisted in creating a "file" class that takes a String and transforms it into an array of lines that will be manipulated by methods. This String is formed by a series of lines separated by " \n ". Each line is formed by the following elements: word (the form), category, lemma, mode, time, person, gender and number, always in this order and separated by ";". Where the elements do not exist, there is an empty string. For all these elements, except the form and the lemma, a normalization was created so that everyone who was in charge of the classes Treetagger, Spacy etc. used the same notations.
 
+![UML-Modelisation](https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/blob/master/UML-modelization.JPG)
+
 To access the String that is in linesParsees, I have taken the following steps:
 - created a "Parse" interface where the method "parse" is declared --> all classes that process files (TreeTagger, Spacy etc) implement the "Parse" interface.
 - used an "analysis" object of type parse
