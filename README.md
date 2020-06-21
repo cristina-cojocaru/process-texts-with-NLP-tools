@@ -24,3 +24,12 @@ For the table, I created a different class called "Content". In this class I dec
 
 First I declared these variables as private and then I created public methods to obtain these variables.
 
+![private-to-public](https://github.com/cristina-cojocaru/process-texts-with-NLP-tools/blob/master/private-to-public.JPG)
+
+I used these methods later on, to access the elements of the table. 
+
+###The second part consisted in creating methods to manipulate the array.
+
+For example, I created the method "nbOccLemme" which displays both the lemmas and the number of occurrences for each lemma. To make the method return 2 different types of variable (a String and an Integer), I used a hash Map.
+
+<code> Map<String, Integer> lemmesOcc = new HashMap<String, Integer>(); </code>
